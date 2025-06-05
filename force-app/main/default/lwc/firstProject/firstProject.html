@@ -1,11 +1,61 @@
 <template>
-    <lightning-layout>
-        <lightning-layout-item size="6" class="slds-box">
-            item1
+    <lightning-layout multiple-rows= {multipleRow}>
+        <lightning-layout-item size="3" class="slds-box">
+            item1 (default) 
         </lightning-layout-item>
-        <lightning-layout-item size="6" class="slds-box">
-            item2
+        <lightning-layout-item size="3" class="slds-box">
+            item2 (default) 
         </lightning-layout-item>
+        <lightning-layout-item size="3" class="slds-box">
+            item3 (default) 
+        </lightning-layout-item>
+    </lightning-layout>
 
+    <lightning-layout horizontal-align="center" multiple-rows= {multipleRow} class="slds-m-top_small">
+        <lightning-layout-item size="3" class="slds-box">
+            item1 (center) 
+        </lightning-layout-item>
+        <lightning-layout-item size="3" class="slds-box">
+            item2 (center) 
+        </lightning-layout-item>
+            <lightning-layout-item size="3" class="slds-box">
+            item3 (center) 
+            </lightning-layout-item>
+    </lightning-layout>
+
+    <lightning-layout horizontal-align="space" multiple-rows= {multipleRow} class="slds-m-top_small">
+        <lightning-layout-item size="3" class="slds-box">
+            item1 (space) 
+        </lightning-layout-item>
+        <lightning-layout-item size="3" class="slds-box">
+            item2 (space) 
+        </lightning-layout-item>
+            <lightning-layout-item size="3" class="slds-box">
+            item3 (space) 
+            </lightning-layout-item>
+    </lightning-layout>
+
+        <lightning-layout horizontal-align="spread" multiple-rows= {multipleRow} class="slds-m-top_small">
+        <lightning-layout-item size="3" class="slds-box">
+            item1 (spread) 
+        </lightning-layout-item>
+        <lightning-layout-item size="3" class="slds-box">
+            item2 (spread) 
+        </lightning-layout-item>
+            <lightning-layout-item size="3" class="slds-box">
+            item3 (spread) 
+            </lightning-layout-item>
+    </lightning-layout>
+
+    <lightning-layout horizontal-align="end" multiple-rows= {multipleRow} class="slds-m-top_small">
+        <lightning-layout-item size="3" class="slds-box">
+            item1 (end) 
+        </lightning-layout-item>
+        <lightning-layout-item size="3" class="slds-box">
+            item2 (end) 
+        </lightning-layout-item>
+            <lightning-layout-item size="3" class="slds-box">
+            item3 (end) 
+            </lightning-layout-item>
     </lightning-layout>
 </template>

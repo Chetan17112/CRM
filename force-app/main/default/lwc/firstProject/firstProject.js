@@ -1,3 +1,10 @@
-import { LightningElement } from 'lwc';
+import { LightningElement,track,api } from 'lwc';
 
-export default class FirstProject extends LightningElement {}
+let variable = "chetan";
+export default class FirstProject extends LightningElement {
+
+   @track multipleRow = false; //private 
+   @api lastname = variable; // public
+   
+
+}
