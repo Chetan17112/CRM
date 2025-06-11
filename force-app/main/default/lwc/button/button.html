@@ -13,16 +13,16 @@
         </lightning-layout-item>
     </lightning-layout>
 
-    <lightning-layout class="slds-m-top_small" aria-label="If else" horizontal-align="center">
-        <lightning-layout-item>
+    <lightning-layout class="slds-m-top_large" horizontal-align="center">
+        <lightning-layout-item title="If Else">
             <img src = "https://www.hindisoch.com/wp-content/uploads/2019/07/Kids-Funny-Good-Morning-Images-with-Funny-Quotes.webp" lwc:if={show}>
             <img src = "https://static.sociofyme.com/photo/109533902/109533902.jpg" lwc:elseif={shows}>
             <img src = "https://goodmorningimage.home.blog/wp-content/uploads/2023/02/good-morning-baby-images-23.jpg?w=1024" lwc:else>
         </lightning-layout-item>
     </lightning-layout>
     <lightning-layout horizontal-align="center">
-        <lightning-layout-item class="slds-m-top_small">
+        <lightning-layout-item class="slds-m-top_large">
             <lightning-button label="Good moring" onclick={goodMView} variant="brand"></lightning-button>
-        </lightning-layout-item>
+        </lightning-layout-item>    
     </lightning-layout>
 </template>
